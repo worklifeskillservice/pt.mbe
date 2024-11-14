@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/logombe11111.jpg"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Mahesa Baruna Engineering</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span>Mahesa Baruna Engineering</span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Beranda</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav__link">Tentang</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav__link">Layanan</a>
+            </li>
+
+            <li>
+              <a href="#harga" class="nav__link">Harga</a>
+            </li>
+
+            <li>
+              <a href="#customer" class="nav__link">Customer</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link button">Kontak</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-2-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <!--<img
+          src="assets/img/home-lines-bg.svg"
+          alt="image"
+          class="home__lines"
+        />-->
+
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__data">
+              <h1 class="home__title">
+                PT. Mahesa Baruna <br />
+                Engineering
+              </h1>
+              <p class="home__description">
+                Service AC & maintenance
+              </p>
+
+              <div class="home__buttons">
+                <a href="#services" class="button">Layanan Kami</a>
+
+                <a href="#about" class="button__link">
+                  <span>Lihat Project</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="home__info">
+              <div>
+                <h3 class="home__info-title">10+</h3>
+                <p class="home__info-description">
+                  Customer <br />
+                  Pabrik
+                </p>
+              </div>
+
+              <div>
+                <h3 class="home__info-title">100+</h3>
+                <p class="home__info-description">
+                  Project <br />
+                  Selesai
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="home__images">
+            <img
+              src="assets/img/logoptmbe.png"
+              alt="image"
+              class="home__img-1"
+              onclick="openModal(this.src)"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <span class="section__subtitle"> TENTANG KAMI </span>
+            <h2 class="section__title">
+              VISI & MISI
+              PT. MBE
+            </h2>
+
+            <p class="about__description">
+              <b>Visi :</b> <br>Menjadi penyedia layanan AC terdepan di Indonesia
+              dengan standar kualitas yang tinggi.</br>
+              <br><b>Misi :</b> <br>1. Memberikan layanan perawatan dan perbaikan AC yang cepat dan efisien.</br>
+            <br>2. Menyediakan produk dan solusi yang ramah lingkungan.</br>
+          <br>3. Meningkatkan kepuasan pelanggan melalui layanan purna jual yang baik.</br></br>
+            </p>
+
+          <!--<ul class="about__list grid">
+              <li class="about__list-item">
+                <i class="ri-apps-2-line"></i>
+                <span>Instalasi AC</span>
+              </li>
+              <li class="about__list-item">
+                <i class="ri-apps-2-line"></i>
+                <span>Perawatan Berkala</span>
+              </li>
+              <li class="about__list-item">
+                <i class="ri-apps-2-line"></i>
+                <span>Perbaikan</span>
+              </li>
+              <li class="about__list-item">
+                <i class="ri-apps-2-line"></i>
+                <span>Pemasangan dan Perbaikan Filter</span>
+              </li>
+            </ul>-->
+
+            <a href="project.html" class="button">Lihat Project</a>
+          </div>
+
+          <div class="about__images">
+            <img
+              src="assets/img/r pak steven.jpeg"
+              alt="image"
+              class="about__img-1"
+              onclick="openModal(this.src)"
+            />
+            <img
+              src="assets/img/project 6 (1).jpg"
+              alt="image"
+              class="about__img-2"
+              onclick="openModal(this.src)"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <div class="services__container container grid">
+          <div class="services__data">
+            <div>
+              <span class="section__subtitle">LAYANAN KAMI</span>
+              <h2 class="section__title">
+                Layanan <br />
+                Berkualitas Tinggi
+              </h2>
+            </div>
+
+            <p class="services__description">
+              Kami berkomitmen untuk memberikan<br /> layanan terbaik
+              kepada pelanggan melalui profesionalisme, keahlian, inovasi. 
+            </p>
+
+            <a href="#harga" class="button">Daftar Harga</a>
+          </div>
+
+          <div class="services__swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="services__card swiper-slide">
+                <div class="services__icon">
+                  <i class="ri-building-4-line"></i>
+                </div>
+
+                <h3 class="services__title">
+                  Instalasi <br />
+                  AC
+                </h3>
+
+                <p>
+                  Pemasangan sistem pendingin udara untuk berbagai jenis gedung perkantoran, perumahan, industri, dan sektor instansi pemerintahan.
+                </p>
+              </article>
+
+              <article class="services__card swiper-slide">
+                <div class="services__icon">
+                  <i class="ri-home-office-line"></i>
+                </div>
+
+                <h3 class="services__title">
+                  Perawatan <br />
+                  Berkala
+                </h3>
+
+                <p>
+                  Layanan perawatan rutin untuk memastikan kinerja optimal AC.
+                </p>
+              </article>
+
+              <article class="services__card swiper-slide">
+                <div class="services__icon">
+                  <i class="ri-tools-line"></i>
+                </div>
+
+                <h3 class="services__title">
+                  Perbaikan
+                </h3>
+
+                <p>
+                  Diagnosa dan perbaikan kerusakan AC oleh teknisi yang berpengalaman.
+                </p>
+              </article>
+
+              <article class="services__card swiper-slide">
+                <div class="services__icon">
+                  <i class="ri-box-3-line"></i>
+                </div>
+
+                <h3 class="services__title">
+                  Pemasangan dan <br />
+                  Perbaikan Filter
+                </h3>
+
+                <p>
+                  Jasa penggantian filter AC untuk menjaga kebersihan udara.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <!--navigasi button-->
+          <div class="swiper-button-prev">
+            <i class="ri-arrow-left-line"></i>
+          </div>
+          <div class="swiper-button-next">
+            <i class="ri-arrow-right-line"></i>
+          </div>
+        </div>
+        <div class="services__shape"></div>
+      </section>
+
+      <!--==================== HARGA ====================-->
+      <section class="harga section" id="harga">
+        <span class="section__subtitle">
+          Harga
+        </span>
+        <h2 class="section__title">Rincian Harga</h2>
+
+        <div class="harga__container container grid">
+          <article class="harga__card">
+            <img src="assets/img/std cleaning.jpg" alt="image" class="harga__img">
+
+            <div class="harga__data">
+              <h2 class="harga__title">Standar Cleaning AC</h2>
+              <span class="harga__date">(Pembersih unit indoor dan outdoor AC, membersihkan saluran pipa drain dan filter udara serta memeriksa suhu AC)</span>
+
+             <div class="price-list">
+                <div class="price-item">
+                  <p><strong>AC Split 0,5 pk - 1,5 pk</strong></p>
+                  <p class="price"><strong>Rp. 65.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Split 2 pk - 2,5 pk</strong></p>
+                  <p class="price"><strong>Rp. 100.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Cassete 2 pk - 3 pk</strong></p>
+                  <p class="price"><strong>Rp. 400.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Cassete > 3 pk</strong></p>
+                  <p class="price"><strong>Rp. 500.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Standing Floor 1 pk - 5 pk</strong></p>
+                  <p class="price"><strong>Rp. 75.000 - 350.000</strong></p>
+                </div>
+              </div>
+              <p><strong>Note:</strong></p>
+              <span>Sangat direkomendasikan untuk dilakukan setiap 3 bulan sekali</span>
+            </div>
+          </article>
+          <article class="harga__card">
+            <img src="assets/img/4.jpg" alt="image" class="harga__img">
+
+            <div class="harga__data">
+              <h2 class="harga__title">Deep Cleaning AC</h2>
+              <span class="harga__date">(Pembersih unit indoor dan outdoor AC, membersihkan saluran pipa drain dan filter udara serta memeriksa suhu AC, diberikan Foam Cleaner untuk melunturkan kotoran pada evaporator, dilakukan steam uap untuk membasmi virus dan bakteri pada AC)</span>
+
+             <div class="price-list">
+                <div class="price-item">
+                  <p><strong>AC Split 0,5 pk - 1,5 pk</strong></p>
+                  <p class="price"><strong>Rp. 120.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Split 2 pk - 2,5 pk</strong></p>
+                  <p class="price"><strong>Rp. 150.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Cassete 2 pk - 3 pk</strong></p>
+                  <p class="price"><strong>Rp. 575.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Cassete > 3 pk</strong></p>
+                  <p class="price"><strong>Rp. 675.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Standing Floor 1 pk - 5 pk</strong></p>
+                  <p class="price"><strong>Rp. 175.000 - 475.000</strong></p>
+                </div>
+              </div>
+              <p><strong>Note:</strong></p>
+              <span>Sangat direkomendasikan untuk dilakukan setiap 3 bulan sekali</span>
+            </div>
+          </article>
+          <article class="harga__card">
+            <img src="assets/img/overhoul.jpg" alt="image" class="harga__img">
+
+            <div class="harga__data">
+              <h2 class="harga__title">Over Houl AC / Cuci Besar</h2>
+              <span class="harga__date">(Menurunkan unit indoor AC, melakukan pembersihan kotoran secara menyeluruh, termasuk di evaporator coil dan blower pada bagian belakang yang tidak tersentuh pada saat pencucian AC biasa serta membersihkan unit outdoor dan memeriksa tekanan gas freon)</span>
+
+             <div class="price-list">
+                <div class="price-item">
+                  <p><strong>AC Split 0,5 pk - 1,5 pk</strong></p>
+                  <p class="price"><strong>Rp. 150.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Split 0,5 pk - 1,5 pk</strong></p>
+                  <p class="price"><strong>Rp. 200.000</strong></p>
+                </div>
+              </div>
+              <p><strong>Note:</strong></p>
+              <span>Sangat direkomendasikan untuk dilakukan setiap 1 tahun sekali</span>
+            </div>
+          </article>
+          <article class="harga__card">
+            <img src="assets/img/pengisian freon.jpg" alt="image" class="harga__img">
+
+            <div class="harga__data">
+              <h2 class="harga__title">Pengisian Freon AC Split</h2>
+              <span class="harga__date"></span>
+
+             <div class="price-list">
+                <div class="price-item">
+                  <p><strong>Freon Type R22 tekanan di bawah 30 psi </strong></p>
+                  <p class="price"><strong>Rp. 250.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Freon type R32/R410 tekanan di bawah 80psi</strong></p>
+                  <p class="price"><strong>Rp. 250.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Pengisian Freon AC Standing Floor,Cassete & Ducting 2pk</strong></p>
+                  <p class="price"><strong>Rp. 500.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Pengisian Freon AC Standing Floor,Cassete & Ducting >2pk</strong></p>
+                  <p class="price"><strong>Rp. 800.000</strong></p>
+                </div>
+              </div>
+              <p><strong>Perhatian!</strong></p>
+              <span>Kami sangat berkomitmen untuk tidak melakukan manipulasi dalam hal pengisian freon. Semua teknisi akan bekerja sesuai standar operasional dan juga final report before and after pengisian.</span>
+            </div>
+          </article>
+          <article class="harga__card">
+            <img src="assets/img/instal ac.jpg" alt="image" class="harga__img">
+
+            <div class="harga__data">
+              <h2 class="harga__title">Instalasi AC</h2>
+              <span class="harga__date"></span>
+
+             <div class="price-list">
+                <div class="price-item">
+                  <p><strong>AC Split 0,5 pk - 1,5 pk</strong></p>
+                  <p class="price"><strong>Rp. 250.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Split 2 pk - 2,5 pk</strong></p>
+                  <p class="price"><strong>Rp. 400.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Cassete 3 pk kebawah</strong></p>
+                  <p class="price"><strong>Rp. 1.200.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Cassete 3 pk keatas</strong></p>
+                  <p class="price"><strong>Rp. 1.500.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Standing Floor 2 pk - 6 pk</strong></p>
+                  <p class="price"><strong>Rp. 1.200.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>AC Standing Floor 6 pk keatas</strong></p>
+                  <p class="price"><strong>Rp. 2.000.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Bongkar AC Split 0,5 pk - 1,5 pk</strong></p>
+                  <p class="price"><strong>Rp. 150.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Bongkar AC Split 1,5 pk - 2 pk</strong></p>
+                  <p class="price"><strong>Rp. 200.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Bongkar AC Cassete & Ducting</strong></p>
+                  <p class="price"><strong>Rp. 200.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Bongkar AC Standing Floor 2 pk - 6pk</strong></p>
+                  <p class="price"><strong>Rp. 550.000</strong></p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="harga__card">
+            <img src="assets/img/5.jpg" alt="image" class="harga__img">
+
+            <div class="harga__data">
+              <h2 class="harga__title">Sparepart Instalasi AC</h2>
+              <span class="harga__date"></span>
+
+             <div class="price-list">
+                <div class="price-item">
+                  <p><strong>Pipa Pipa AC 0,5-1 PK (1/4 x 3/8)</strong></p>
+                  <p class="price"><strong>Rp. 100.000/meter</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Pipa AC 1,5-2 PK (1/4 x 1/2) </strong></p>
+                  <p class="price"><strong>Rp. 120.000/meter</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Pipa AC 2,5 PK (1/4 x 5/8)</strong></p>
+                  <p class="price"><strong>Rp. 195.000/meter</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Pipa AC Besar (3/8 x 5/8)</strong></p>
+                  <p class="price"><strong>Rp. 235.000/meter</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Duct Tape</strong></p>
+                  <p class="price"><strong>Rp. 15.000/roll</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Pipa Drain</strong></p>
+                  <p class="price"><strong>Rp. 10.000/meter</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Pipa PVC</strong></p>
+                  <p class="price"><strong>Rp. 50.000/meter</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Insulasi</strong></p>
+                  <p class="price"><strong>Rp. 30.000/meter</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Bracket Outdoor</strong></p>
+                  <p class="price"><strong>Rp. 100.000/set</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Bracket Outdoor Besar</strong></p>
+                  <p class="price"><strong>Rp. 150.000/set</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Kabel Listrik</strong></p>
+                  <p class="price"><strong>Rp. 25.000/meter</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Stop Kontak</strong></p>
+                  <p class="price"><strong>Rp. 100.000/pcs</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Dynaset</strong></p>
+                  <p class="price"><strong>Rp. 20.000/pcs</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Besi Siku</strong></p>
+                  <p class="price"><strong>Rp. 350.000/set</strong></p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="harga__card">
+            <img src="assets/img/pengganti part.jpg" alt="image" class="harga__img">
+
+            <div class="harga__data">
+              <h2 class="harga__title">Penggantian Sparepart AC</h2>
+              <span class="harga__date"></span>
+
+             <div class="price-list">
+                <div class="price-item">
+                  <p><strong>Remote AC Universal</strong></p>
+                  <p class="price"><strong>Rp. 100.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Kapasitor Kompresor</strong></p>
+                  <p class="price"><strong>Rp. 150.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Kapasitor Fan</strong></p>
+                  <p class="price"><strong>Rp. 100.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Sensor Pendingin</strong></p>
+                  <p class="price"><strong>Rp. 350.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Kran Outdoor</strong></p>
+                  <p class="price"><strong>Rp. 100.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Nepel Pipa</strong></p>
+                  <p class="price"><strong>Rp. 100.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Overload Protector</strong></p>
+                  <p class="price"><strong>Rp. 100.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>PCB Based On Type</strong></p>
+                  <p class="price"><strong>Rp. 150.000 - 250.000</strong></p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="harga__card">
+            <img src="assets/img/perbaikan ac.jpg" alt="image" class="harga__img">
+
+            <div class="harga__data">
+              <h2 class="harga__title">Layanan Perbaikan AC</h2>
+              <span class="harga__date">(Kami juga melayani perbaikan AC, mulai dari pengecekan sampai troubleshooting unit AC Anda. Kami akan memberikan solusi terbaik untuk setiap masalah pada AC Anda)</span>
+
+             <div class="price-list">
+                <div class="price-item">
+                  <p><strong>Jasa Pengecekan Trouble</strong></p>
+                  <p class="price"><strong>Rp. 50.000/unit</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Jasa Perapihan Instalasi</strong></p>
+                  <p class="price"><strong>Rp. 150.000 - 300.000</strong></p><p>(Biaya pembobokan, perapihan tembok & plafon, tidak termasuk pengecatan)</p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Pengisian Freon AC Standing Floor,Cassete & Ducting 2pk</strong></p>
+                  <p class="price"><strong>Rp. 500.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Jasa Pembersihan Saluran Drain dengan High Pressure Water</strong></p>
+                  <p class="price"><strong>Rp. 150.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Jasa Penarikan Pipa Lama</strong></p>
+                  <p class="price"><strong>Rp. 100.000 - 150.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Jasa Pengelasan Pipa AC</strong></p>
+                  <p class="price"><strong>Rp. 100.000/titik</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Jasa Flushing Pipa AC</strong></p>
+                  <p class="price"><strong>Rp. 150.000</strong></p>
+                </div>
+                <div class="price-item">
+                  <p><strong>Jasa Survey Instalasi Unit Baru</strong></p>
+                  <p class="price"><strong>Rp. - (Free)</strong></p>
+                </div>
+              </div>
+              <p><strong>Note:</strong></p>
+              <span>Garansi 30 Hari</span>
+            </div>
+          </article>
+          
+        </div>
+      </section>
+
+      <!--CUSTOMER-->
+      <section class="customer section" id="customer">
+        <div class="customer__container container grid">
+          <div class="customer__data">
+            <div>
+              <span class="section__subtitle">CUSTOMER KAMI</span>
+              <h2 class="section__title">
+                Kepercayaan Customer <br />
+                Terhadap Kami
+              </h2>
+            </div>
+            <div class="our-partners">
+    <div class="partners-container">
+        <div class="partner">
+            <img src="assets/img/wakita.jpg" alt="Partner 1">
+        </div>
+        <div class="partner">
+            <img src="assets/img/samator.jpg" alt="Partner 2">
+        </div>
+        <div class="partner">
+            <img src="assets/img/sagi.jpg" alt="Partner 3">
+        </div>
+        <div class="partner">
+            <img src="assets/img/posco.jpg" alt="Partner 4">
+        </div>
+        <div class="partner">
+            <img src="assets/img/pcm (2).jpg" alt="Partner 4">
+        </div>
+        <div class="partner">
+            <img src="assets/img/mitsubishi.jpg" alt="Partner 4">
+        </div>
+        <div class="partner">
+            <img src="assets/img/ipcm.jpg" alt="Partner 4">
+        </div>
+        <div class="partner">
+            <img src="assets/img/hju.jpg" alt="Partner 4">
+        </div>
+    </div>
+</div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== Galery ====================-->
+      
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <span class="section__subtitle">Kontak Kami</span>
+          <h2 class="section__title">Hubungi Kami Lebih Lanjut</h2>
+
+          <div class="contact__container grid">
+            <img
+              src="assets/img/banner.jpg"
+              alt="image"
+              class="contact__img"
+              onclick="openModal(this.src)"
+            />
+
+            <div class="contact__data grid">
+              <div class="contact__card">
+                <div class="contact__icon">
+                  <i class="ri-map-pin-2-line"></i>
+                </div>
+
+                <h3 class="contact__title">Lokasi</h3>
+                <address class="contact__info">
+                  Pondok Cilegon Indah <br />
+                  Blok C41 N0.25
+                </address>
+              </div>
+
+              <div class="contact__card">
+                <div class="contact__icon">
+                  <i class="ri-phone-line"></i>
+                </div>
+
+                <h3 class="contact__title">Telepon</h3>
+                <address class="contact__info">
+                  +62 822-3167-0239<br>+62 813-1772-3836
+                </address>
+              </div>
+
+              <div class="contact__card">
+                <div class="contact__icon">
+                  <i class="ri-message-3-line"></i>
+                </div>
+
+                <h3 class="contact__title">WhatsApp</h3>
+
+                <div class="contact__social">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=6282231670239&text=Hello, saya ingin menggunakan jasa MBE"
+                    target="_blank"
+                    class="contact__social-link"
+                    ><i class="ri-whatsapp-line"></i
+                  ></a>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=6281317723836&text=Hello, saya ingin menggunakan jasa MBE"
+                    target="_blank"
+                    class="contact__social-link"
+                    ><i class="ri-whatsapp-line"></i
+                  ></a>
+                  <!--<a
+                    href="https://m.me/bedimcode"
+                    target="_blank"
+                    class="contact__social-link"
+                    ><i class="ri-messenger-line"></i
+                  ></a>
+                  <a
+                    href="https://t.me/telegram"
+                    target="_blank"
+                    class="contact__social-link"
+                    ><i class="ri-telegram-line"></i
+                  ></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            <span>Mahesa Baruna Engineering</span>
+          </a>
+          <p class="footer__description">
+            Profesionalisme<br> Keahlian<br> Inovasi
+          </p>
+          <address class="footer__email">Email: mahesaservicecilegon@gmail.com</address>
+        </div>
+
+        <div class="footer__content grid">
+          <div>
+            <h3 class="footer__title">MBE</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#about" class="footer__link">Tentang</a>
+              </li>
+
+              <li>
+                <a href="#services" class="footer__link">Layanan</a>
+              </li>
+
+              <li>
+                <a href="#harga" class="footer__link">Harga</a>
+              </li>
+              <li>
+                <a href="#customer" class="footer__link">Customer</a>
+              </li>
+              <li>
+                <a href="#contact" class="footer__link">Kontak</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Informasi</h3>
+            <ul class="footer__list">
+              <li>
+                <address class="footer__info">
+                   Pondok Cilegon Indah <br />
+                  Blok C41 N0.25
+                </address>
+              </li>
+              <li>
+                <address class="footer__info">Kota Cilegon, Banten</address>
+              </li>
+            </ul>
+          </div>
+
+          <!--<div>
+            <h3 class="footer__title">Social Media</h3>
+            <div class="footer__social">
+              <a
+                href="https://www.facebook.com/"
+                targer="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/"
+                targer="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://twitter.com/"
+                targer="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-twitter-x-line"></i>
+              </a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+      <span class="footer__copy">
+        &#169; All Rights Reserved By PT. MBE 2024
+      </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+<div id="imageModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
